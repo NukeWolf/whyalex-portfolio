@@ -1,0 +1,36 @@
+.logo {
+  justify-self: left;
+  margin-right: auto;
+}
+
+.navbar {
+  height: var(--navbarHeight);
+  background-color: var(--dark);
+  /* needs bg in case content is diff color */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
+.navlinkdiv {
+  background-color: var(--orange);
+  margin: 1rem 1rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  color: var(--light);
+  transition: border-radius 0.5s, color 0.5s;
+}
+
+.navlinkdiv:hover {
+  border-radius: 0px;
+  color: var(--dark);
+}

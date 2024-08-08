@@ -4,7 +4,10 @@ function Hero() {
   return (
     <div className={styles["hero-panel"]}>
       <div className={styles["hero-card"]}>
-        <img src="/me.jpg" className={styles["hero-image"]} />
+        <div>
+          <img src="/me.jpg" className={styles["hero-image"]} />
+        </div>
+
         <div className={styles["hero-text"]}>
           <h1>Welcome!</h1>
           <p>

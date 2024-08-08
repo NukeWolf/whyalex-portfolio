@@ -12,13 +12,13 @@
   --light: #ffffff;
   --orange: #ff6319;
 
-  --navbarHeight: 3.9rem;
+  --navbarHeight: 6.1rem;
 }
 
 html,
 body {
   font-size: calc(0.83em + 0.2vw);
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
 
   color: var(--light);
   margin: 0;

@@ -1,6 +1,8 @@
 .logo {
   justify-self: left;
   margin-right: auto;
+  height: calc(var(--navbarHeight) - 15px);
+  margin-left: 40px;
 }
 
 .navbar {

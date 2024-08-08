@@ -1,10 +1,11 @@
 import styles from "./Navbar.module.css";
 import NavLink from "./NavLink";
+import Logo from "./Logo";
 
 function NavBar() {
   return (
     <nav className={styles.navbar} id="navbar">
-      <h1 className={styles.logo}>WhyAlex</h1>
+      <Logo className={styles.logo} />
 
       <NavLink href="/">ABOUT</NavLink>
       <NavLink href="/">PROJECTS</NavLink>

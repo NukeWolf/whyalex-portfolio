@@ -1,5 +1,5 @@
 import * as React from "react";
-const SVGComponent = (props) => (
+const SVGComponent: React.FC = (props) => (
   <svg
     id="Layer_1"
     data-name="Layer 1"

@@ -8,6 +8,7 @@ function NavBar() {
       <Logo className={styles.logo} />
 
       <NavLink href="/">ABOUT</NavLink>
+      <div className={styles.divider} />
       <NavLink href="/">PROJECTS</NavLink>
     </nav>
   );

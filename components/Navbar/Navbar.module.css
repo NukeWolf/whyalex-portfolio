@@ -44,3 +44,25 @@
   transform: scale(1.1);
   color: rgb(178, 178, 178);
 }
+
+.icon {
+  height: auto;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+.icon:hover {
+  color: turquoise;
+}
+
+.icon-tray {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 20px;
+  border-width: 2px;
+  border-style: groove;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+}

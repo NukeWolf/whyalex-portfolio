@@ -2,15 +2,13 @@
   background: linear-gradient(
     to bottom,
     rgba(31, 31, 31) 10%,
-    rgba(31, 31, 31, 0.98) 90%,
-    rgba(31, 31, 31, 0) 100%
+    rgba(31, 31, 31, 0.95) 100%
   );
   width: 100vw;
-  margin-top: var(--navbarHeight);
-  min-height: 110vh;
+  padding-top: var(--navbarHeight);
+  min-height: 100vh;
   z-index: 2;
   position: relative;
-  display: flex;
 }
 
 .hero-card {

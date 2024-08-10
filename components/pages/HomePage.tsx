@@ -1,6 +1,8 @@
 import Layout from "../Layout";
 import Hero from "../Hero";
 import MapWrapper from "../MapWrapper";
+import ProjectSection from "../ProjectSection";
+
 import { useParallax } from "react-scroll-parallax";
 import { useState, createRef } from "react";
 
@@ -45,6 +47,7 @@ function HomePage() {
         onMove={(evt) => setViewState(evt.viewState)}
       />
       <Hero />
+      <ProjectSection />
       <Buffer height="50vh" />
       <Buffer height={"100vh"} onProgressChange={changeView} />
       <Buffer height="50vh" />

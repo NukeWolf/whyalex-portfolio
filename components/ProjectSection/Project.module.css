@@ -1,0 +1,47 @@
+.projects-panel {
+  background: linear-gradient(
+    to bottom,
+    rgba(31, 31, 31, 0.95) 0%,
+    rgba(240, 121, 0, 1) 10rem,
+    rgba(240, 121, 0, 1) 10rem,
+    rgba(240, 121, 0, 0.8) 100%
+  );
+
+  width: 100vw;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 30rem;
+}
+
+.header {
+  width: 100vw;
+  margin-top: 1rem;
+  border-color: aliceblue;
+  color: var(--light);
+}
+.project-card {
+  /* margin-top: 4rem; */
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-text {
+  text-align: left;
+  width: 60%;
+}
+
+.project-image {
+  max-width: 30%;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+}
+
+.link {
+  color: var(--dark);
+}

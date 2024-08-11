@@ -1,0 +1,79 @@
+.logo {
+  justify-self: left;
+  margin-right: auto;
+  height: calc(var(--navbarHeight) - 15px);
+}
+@media screen and (max-width: 800px) {
+  .logo {
+    margin-left: 1rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  .logo {
+    margin-left: 30px;
+  }
+}
+
+.navbar {
+  height: var(--navbarHeight);
+  background-color: var(--dark);
+  /* needs bg in case content is diff color */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 1000;
+  transition: top 0.3s;
+
+  border-radius: 3px;
+}
+
+.divider {
+  height: calc(var(--navbarHeight) - 60%);
+  width: 2px;
+  background-color: var(--light);
+}
+
+.navlinkdiv {
+  /* font-family: "Helvetica"; */
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0.9rem 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  color: var(--light);
+
+  transition: transform 0.2s, color 0.2s;
+}
+
+.navlinkdiv:hover {
+  transform: scale(1.1);
+  color: rgb(178, 178, 178);
+}
+
+.icon {
+  height: auto;
+  margin-right: 10px;
+  transition: color 0.15s;
+}
+.icon:hover {
+  color: turquoise;
+}
+
+.icon-tray {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 20px;
+  border-width: 2px;
+  border-style: groove;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+}

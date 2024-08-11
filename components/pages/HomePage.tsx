@@ -48,9 +48,10 @@ function HomePage() {
       />
       <Hero />
       <ProjectSection />
-      <Buffer height="50vh" />
+
+      {/* <Buffer height="50vh" />
       <Buffer height={"100vh"} onProgressChange={changeView} />
-      <Buffer height="50vh" />
+      <Buffer height="50vh" /> */}
     </Layout>
   );
 }

@@ -3,6 +3,7 @@ import NavLink from "./NavLink";
 import Logo from "./Logo";
 import { useEffect, useState } from "react";
 import debounce from "../../util/debounce.js";
+import MediaQuery from "react-responsive";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
@@ -64,21 +65,22 @@ function NavBar() {
       <NavLink href="/">PROJECTS</NavLink>
       <div className={styles.divider} />
       <NavLink href="/">CONTACT</NavLink>
-
-      <div className={styles["icon-tray"]}>
-        <a href="https://github.com/NukeWolf">
-          <FaGithub size="2em" className={styles.icon} />
-        </a>
-        <a href="https://www.linkedin.com/in/whyalexhuang/">
-          <FaLinkedin size="2em" className={styles.icon} />
-        </a>
-        <a href="/resume.pdf">
-          <RiFilePaperFill size="2em" className={styles.icon} />
-        </a>
-        <a href="mailto:ahuang@whyalex.is">
-          <IoIosMail size="2.2em" className={styles.icon} />
-        </a>
-      </div>
+      <MediaQuery minWidth={800}>
+        <div className={styles["icon-tray"]}>
+          <a href="https://github.com/NukeWolf">
+            <FaGithub size="2rem" className={styles.icon} />
+          </a>
+          <a href="https://www.linkedin.com/in/whyalexhuang/">
+            <FaLinkedin size="2rem" className={styles.icon} />
+          </a>
+          <a href="/resume.pdf">
+            <RiFilePaperFill size="2rem" className={styles.icon} />
+          </a>
+          <a href="mailto:ahuang@whyalex.is">
+            <IoIosMail size="2.3rem" className={styles.icon} />
+          </a>
+        </div>
+      </MediaQuery>
     </nav>
   );
 }

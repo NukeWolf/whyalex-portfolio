@@ -25,23 +25,32 @@
 }
 .project-card {
   /* margin-top: 4rem; */
-  width: 70vw;
+  width: 60vw;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 100px;
 }
 
 .project-text {
   text-align: left;
-  width: 60%;
+  width: auto;
 }
 
 .project-image {
-  max-width: 30%;
-  width: auto;
+  width: 25rem;
   height: auto;
   border-radius: 5px;
 }
 
 .link {
   color: var(--dark);
+}
+
+.project-title {
+  line-height: 0;
+  text-decoration: none;
+  font-family: "Anton";
+  font-weight: 100;
+  font-style: italic;
 }

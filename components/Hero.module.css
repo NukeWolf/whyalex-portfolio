@@ -20,6 +20,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 5rem;
 }
 
 .hero-image {
@@ -41,7 +42,6 @@
   box-shadow: inset -10px -10px 10px 20px rgba(0, 0, 0, 0.8);
 }
 .hero-text {
-  margin-left: 5rem;
   max-width: 40vw;
   text-align: left;
 }

@@ -42,12 +42,36 @@
   text-align: left;
 }
 
-input {
+input,
+textarea {
   width: 25vw;
   height: 2rem;
   margin-top: 5px;
   background-color: var(--dark);
   opacity: 90%;
-  border-radius: 5px;
+  border-radius: 7px;
   border: none;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  color: var(--light);
+  font-size: 1.3rem;
+  font-family: "Lato";
+  padding-left: 12px;
+}
+
+textarea {
+  height: 10rem;
+  font-size: 1.1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-weight: 400;
+}
+
+button {
+  color: var(--light);
+  display: block;
 }

@@ -4,6 +4,17 @@ import { WorkSectionType } from "./WorkSection";
 
 const Projects: Array<WorkSectionType> = [
   {
+    title: "AVLSI | High-Speed Async Serial Link",
+    href: "https://avlsi.csl.yale.edu/",
+    img: "/project_images/link.png",
+    subtitle: "Undergraduate Researcher | 2024 - Present | New Haven",
+    desc: `Under direct mentorship of Prof. Rajit Manohar and Prof. Robert Soule, I am currently working on making networks switches more power-efficient and green.
+    Using Spice simulations and the ACT language to design serial links and simulate with analog transmission effects. Current progress is the ability to transfer data at 1.6Ghz through 5m cable.`,
+    links: [
+      { href: "https://csl.yale.edu/~rajit/ps/io.pdf", text: "Main Paper" },
+    ],
+  },
+  {
     title: "Neurobit Headset ",
     href: "https://www.neurobittech.com/",
     img: "/project_images/neurobit.jpg",

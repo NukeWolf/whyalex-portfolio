@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "build_ignore_errors": "vite build",
+    "build": "tsc && vite build && cp _redirects dist/_redirects",
+    "build_ignore_errors": "vite build && cp _redirects dist/_redirects",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

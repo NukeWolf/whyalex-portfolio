@@ -58,6 +58,10 @@ const Projects: Array<WorkSectionType> = [
         href: "https://github.com/NukeWolf/Gapyearly-Front",
         text: "Github Repo",
       },
+      {
+        href: "/project_images/gapyearly-architecture.jpg",
+        text: "Gapyearly Architecture Diagram",
+      },
     ],
   },
 ];

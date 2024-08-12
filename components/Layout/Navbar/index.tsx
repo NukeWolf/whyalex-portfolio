@@ -60,9 +60,9 @@ function NavBar() {
 
       <NavLink href="/">HOME</NavLink>
       <div className={styles.divider} />
-      <NavLink href="/">PROJECTS</NavLink>
+      <NavLink href="/#work">PROJECTS</NavLink>
       <div className={styles.divider} />
-      <NavLink href="/">CONTACT</NavLink>
+      <NavLink href="/contact">CONTACT</NavLink>
       <MediaQuery minWidth={800}>
         <IconTray iconSize={2} className={styles["icon-tray"]} />
       </MediaQuery>

@@ -60,7 +60,9 @@ function ProjectSection() {
 
   return (
     <div className={styles["projects-panel"]}>
-      <h1 className={styles.header}>Work </h1>
+      <h1 className={styles.header} id="work">
+        Work{" "}
+      </h1>
       {WorkSections}
     </div>
   );
